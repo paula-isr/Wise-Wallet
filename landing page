@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wise Wallet - Simplificando Sua Gestão Financeira</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .banner {
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+        }
+        .features, .participate, .contact {
+            margin: 20px 0;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .feature-item img {
+            margin-right: 10px;
+        }
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Wise Wallet</h1>
+        <nav>
+            <a href="#home" style="color: white; margin: 0 15px;">Início</a>
+            <a href="#about" style="color: white; margin: 0 15px;">Sobre</a>
+            <a href="#survey" style="color: white; margin: 0 15px;">Pesquisa</a>
+            <a href="#contact" style="color: white; margin: 0 15px;">Contato</a>
+        </nav>
+    </div>
+
+    <div class="banner">
+        <h2>Simplificando Sua Gestão Financeira</h2>
+        <p>Estamos desenvolvendo uma solução financeira inovadora para ajudá-lo a gerenciar suas finanças pessoais de forma simples e eficaz.</p>
+    </div>
+
+    <div class="container">
+        <div class="features" id="about">
+            <h2>O que é o Wise Wallet?</h2>
+            <div class="feature-item">
+                <img src="icon1.png" alt="Gestão Completa" width="50">
+                <p><strong>Gestão Completa de Finanças Pessoais:</strong> Controle suas contas bancárias e cartões de crédito em um só lugar.</p>
+            </div>
+            <div class="feature-item">
+                <img src="icon2.png" alt="Relatórios" width="50">
+                <p><strong>Relatórios Financeiros Detalhados:</strong> Acompanhe suas finanças com relatórios mensais personalizados.</p>
+            </div>
+            <div class="feature-item">
+                <img src="icon3.png" alt="Segurança" width="50">
+                <p><strong>Segurança e Privacidade:</strong> Seus dados financeiros protegidos com a mais alta segurança.</p>
+            </div>
+            <div class="feature-item">
+                <img src="icon4.png" alt="Assistente Virtual" width="50">
+                <p><strong>Assistente Virtual:</strong> Utilize nosso chatbot para esclarecer dúvidas e obter suporte imediato.</p>
+            </div>
+        </div>
+
+        <div class="participate" id="survey">
+            <h2>Participe da Nossa Pesquisa de Usuário</h2>
+            <p>Sua opinião é fundamental para o sucesso do Wise Wallet. Estamos realizando uma pesquisa de usuário para entender melhor suas necessidades e melhorar nosso produto.</p>
+            <p><strong>Como Participar?</strong></p>
+            <ol>
+                <li><strong>Acesse o Protótipo:</strong> Clique no link abaixo para acessar nosso protótipo.</li>
+                <li><strong>Navegue pelo Protótipo:</strong> Siga o passo-a-passo para explorar todas as funcionalidades.</li>
+                <li><strong>Responda à Pesquisa:</strong> Compartilhe sua experiência e sugestões através de nossa pesquisa de usuário.</li>
+            </ol>
+            <a href="link-para-o-prototipo" class="cta-button">Acesse o Protótipo e Participe da Pesquisa Agora!</a>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Se tiver alguma dúvida ou precisar de mais informações, não hesite em nos contatar:</p>
+            <p><strong>Email:</strong> <a href="mailto:contato@wisewallet.com">contato@wisewallet.com</a></p>
+            <p><strong>Telefone:</strong> (11) 1234-5678</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Wise Wallet. Todos os direitos reservados.</p>
+        <nav>
+            <a href="#terms" style="color: white; margin: 0 10px;">Termos de Uso</a>
+            <a href="#privacy" style="color: white; margin: 0 10px;">Política de Privacidade</a>
+            <a href="#social" style="color: white; margin: 0 10px;">Redes Sociais</a>
+        </nav>
+    </div>
+</body>
+</html>
